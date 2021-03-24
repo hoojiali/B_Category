@@ -4,10 +4,11 @@ platform :ios, '9.0'
 
 target 'B_Category_Example' do
   pod 'B_Category', :path => '../'
-
+  pod "CTMediator"
+  
   target 'B_Category_Tests' do
     inherit! :search_paths
-
+    
     
   end
 end
